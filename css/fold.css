@@ -1,0 +1,144 @@
+.iframe{
+    border: solid 1px #888888;
+    font-size: 13px;
+}
+
+.title{
+    padding: 6px;
+    background-color: #eeeeee;
+}
+
+.content{
+    padding: 8px 0;
+    font-size: 12px;
+    text-align: center;
+    display: none;
+}
+
+
+
+.curcol{
+    background-color: #cccccc;
+}
+
+/*折扇效果*/
+.main{
+    width: 800px;
+    height: 800px;
+    position: relative;
+    left: 45%;
+}
+
+.main div{
+    width: 80px;
+    height: 500px;
+    left: 0;
+    top:5%;
+    bottom:0;
+    transform-origin: bottom;
+    position: absolute;
+    border-radius: 10px;
+}
+
+#main1{
+    z-index: 1;
+    background-color: red;
+    transform: rotate(0deg);
+}
+
+#main2{
+    z-index:2;
+    background-color: coral;
+    transform: rotate(0deg);
+}
+
+#main3{
+    z-index: 3;
+    background-color: yellow;
+    transform: rotate(0deg);
+}
+
+#main4{
+    z-index: 4;
+    background-color: green;
+    transform: rotate(0deg);
+}
+
+#main5{
+    z-index: 5;
+    background-color: blue;
+    transform: rotate(0deg);
+}
+
+#main6{
+    z-index: 6;
+    background-color: darkblue;
+    transform: rotate(0deg);
+}
+
+#main7{
+    z-index: 7;
+    background-color: purple;
+    transform: rotate(0deg);
+}
+
+#main8{
+    z-index: 8;
+    background-color: deeppink;
+    transform: rotate(0deg);
+}
+
+#main9{
+    z-index: 9;
+    background-color: pink;
+    transform: rotate(0deg);
+}
+
+#main10{
+    z-index: 10;
+    background-color: palegreen;
+    transform: rotate(0deg);
+}
+
+#main11{
+    z-index: 11;
+    background-color: pink;
+    transform: rotate(0deg);
+}
+
+#main12{
+    z-index: 12;
+    background-color: deeppink;
+    transform: rotate(0deg);
+}
+
+#main13{
+    z-index: 13;
+    background-color: purple;
+    transform: rotate(0deg);
+}
+
+#main14{
+    z-index: 14;
+    background-color: darkblue;
+    transform: rotate(0deg);
+}
+
+#main15{
+    z-index: 15;
+    background-color: blue;
+    transform: rotate(0deg);
+}
+
+#main16{
+    z-index: 16;
+    background-color: green;
+    transform: rotate(0deg);
+}
+
+#main17{
+    z-index: 17;
+    background-color: blue;
+    transform: rotate(0deg);
+}
+
